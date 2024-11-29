@@ -65,7 +65,7 @@ if __name__ == "__main__":
     regency_url = "https://id.wikipedia.org/wiki/Daftar_lambang_kabupaten_dan_kota_di_Indonesia"
 
     # Scrape and save province images
-    scrape_and_save_images(province_url, "provinces", size=500)
+    scrape_and_save_images(province_url, "Provinsi", size=500)
 
     # Scrape and save regency images
-    scrape_and_save_images(regency_url, "regencies", size=500)
+    scrape_and_save_images(regency_url, "Kabupaten", size=500)
